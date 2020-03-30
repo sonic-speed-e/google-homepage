@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    float: left;
+  }
+  
+  a {
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+  .submit-button {
+    float: right;
+  }
+  
+  .submit {
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .apps {
+    float: right;
+  }
+  
+  .gmail {
+    float: right;
+  }
+  
+  .images {
+    float: right;
+  }
+  
+  .logo {
+    display: fixed;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+  }
+  
+  
