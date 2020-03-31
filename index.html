@@ -14,7 +14,7 @@
     <button class="submit" type="submit">Sign In</button>
   </li>
   <li class="apps">
-    <i class="material-icons"><a href="apps.asp">apps</a></i>
+    <i class="material-icons"><a href="apps.asp">apps</a></i></li>
     <li class="images"><a href="images.asp">Images</a></li>
   <li class="gmail"><a href="gmail.asp">Gmail</a></li>
   </li>
@@ -23,25 +23,36 @@
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </div>
-  
+
+<div class="container">
 <div class="logo">
   <img src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 </div>
 
+<form id= "search-field">
 <div class="search-bar">
   <i class="fas fa-search"></i>
-  <input class= "input text" type="text">
+  <input type="text" id="input-search" name="input-search">
   <i class="fas fa-microphone"></i>
 </div>
   
-<button type="submit">Google Search</button>
-
-<button type="submit">I'm Feeling Lucky</button>
+<div class="search-buttons">
+  <button type="submit" id="submit" class="submit-button">Google Search</button>
+  <button type="submit" id="submit" class="submit-button">I'm Feeling Lucky</button>
+</div>
+</form>
+</div>
 
 <div class="footer">
-  <ul>
+  <ul class="footer-left">
 <li><a href="advertising">Advertising</a></li>
 <li><a href="business">Business</a></li>
 <li><a href="how-search-works">How Search Works</a></li>
+  </ul>
+  
+  <ul class="footer-right">
+    <li><a href="privacy">Privacy</a></li>
+    <li><a href="terms">Terms</a></li>
+    <li><a href="settings">Settings</a></li>
   </ul>
 </div>
